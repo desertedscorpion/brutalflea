@@ -1,0 +1,8 @@
+[Unit]
+Description=Hello World Service
+
+[Service]
+ExecStart=/usr/local/sbin/brutalflea.sh
+
+[Install]
+WantedBy=multi-user.target
